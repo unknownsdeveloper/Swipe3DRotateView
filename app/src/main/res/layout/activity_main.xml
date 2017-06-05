@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ankit.developer.unknowns.swipe3drotateview.MainActivity">
+
+    <com.nipunbirla.swipe3drotateview.Swipe3DRotateView
+        android:id="@+id/rotateView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#934567">
+        </FrameLayout>
+        <FrameLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#134567">
+        </FrameLayout>
+
+    </com.nipunbirla.swipe3drotateview.Swipe3DRotateView>
+</RelativeLayout>
